@@ -1,0 +1,56 @@
+body {
+    /* background-color: #006747; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("https://www.dixhillsgolf.com/images/galleries/course/pg07.jpg");
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;  
+}
+
+nav {
+    /* border: solid black; */
+    height: 10rem;
+    display: flex;
+    gap: 5rem;
+    border-bottom: solid black;
+    box-shadow: 0px 0px 15px 10px;
+    background-color: #006747;
+}
+
+#logo {
+    height: 8rem;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    width: 100%;
+    text-align: center;
+    padding-top: 3.5%;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+section{
+    text-align: center;
+    width: 40rem;
+    margin-left: 33%;
+    font-size: large;
+    color: aliceblue;
+    border: solid black;
+    box-shadow: black 0px 0px 15px 10px;
+    background: rgba(24, 90, 52, 0.5)
+}
+
+.card {
+    border: solid black;
+    width: 20rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: row;
+}
